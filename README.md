@@ -12,7 +12,7 @@ and found the manual-designed networks could even surpass the NAS-based method i
 
 The final presented network could surpass the many sota methods including NAS-based ones:
 
-<img src="https://github.com/wangyxxjtu/PCNet/blob/master/result.png" width="645" alt="workflow" />
+<img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/result.png" width="645" alt="workflow" />
 
 ## Train
 Quick taste! Specify the image path and use the [pretrained model](https://drive.google.com/file/d/1WDcU7Oa5U4p37-prrA8f51IM3ycrtuCp/view?usp=sharing) to generate superpixels for an image
