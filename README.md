@@ -10,7 +10,7 @@ and found the manual-designed networks could even surpass the NAS-based method i
 
 <img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/flops_acc.png" width="745" alt="workflow" />
 
-The final presented network could surpass the many sota methods including NAS-based ones on ImageNet:
+The final presented network could surpass the many sota methods including NAS-based ones on ImageNet, this work may provide some guidance for the manual network design:
 
 <img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/result.png" width="845" alt="workflow" />
 
@@ -19,8 +19,7 @@ run
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 OMP_NUM_THREADS=1 python -u -m torch.distributed.launch --nproc_per_node 4 train_dist_ema.py
 ```
-or simply:
-run
+or simply run:
 ```
 sh run.sh
 ```
