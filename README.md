@@ -14,7 +14,7 @@ The final presented network could surpass the many sota methods including NAS-ba
 
 <img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/result.png" width="845" alt="workflow" />
 
-## Running
+## Training and Testing
 run
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 OMP_NUM_THREADS=1 python -u -m torch.distributed.launch --nproc_per_node 4 train_dist_ema.py
