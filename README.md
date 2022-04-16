@@ -14,17 +14,7 @@ The final presented network could surpass the many sota methods including NAS-ba
 
 <img src="https://github.com/wangyxxjtu/PCNet/blob/master/result.png" width="645" alt="workflow" />
 
-## Prerequisites
-The training code was mainly developed and tested with python 2.7, PyTorch 0.4.1, CUDA 9, and Ubuntu 16.04.
-
-During test, we make use of the component connection method in [SSN](https://github.com/NVlabs/ssn_superpixels) to enforce the connectivity 
-in superpixels. The code has been included in ```/third_paty/cython```. To compile it:
- ```
-cd third_party/cython/
-python setup.py install --user
-cd ../..
-```
-## Demo
+## Train
 Quick taste! Specify the image path and use the [pretrained model](https://drive.google.com/file/d/1WDcU7Oa5U4p37-prrA8f51IM3ycrtuCp/view?usp=sharing) to generate superpixels for an image
 ```
 python run_demo.py --image=PATH_TO_AN_IMAGE --output=./demo 
