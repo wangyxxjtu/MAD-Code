@@ -1,8 +1,8 @@
 # Make Manual Architecture Design Great Again
 
-This is is a non-official PyTorch implementation of this work (2022):
+This is is a PyTorch implementation of our work (2022):
 
-[Make Manual Architecture Design Great Again](https://arxiv.org/pdf/2108.08607.pdf)
+[Make Manual Architecture Design Great Again]
 
 ## Introduction
 This work is an interesting exploration, the authors made a comprehensive study on the hyperparameters and Arch. configurations in the manual-designed networks, and found the manual-designed networks could even surpass the NAS-based method if we could appropriately use the configurations: 
@@ -21,23 +21,4 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 OMP_NUM_THREADS=1 python -u -m torch.distributed.la
 or simply run:
 ```
 sh run.sh
-```
-
-## Citation
-If you use our code, please cite our work:
-``` bash
-{@article{wangyx_pcnet,
-  author    = {Yaxiong Wang and
-               Yunchao Wei and
-               Xueming Qian and
-               Li Zhu and
-               Yi Yang},
-  title     = {Generating Superpixels for High-resolution Images with Decoupled Patch
-               Calibration},
-  journal   = {CoRR},
-  volume    = {abs/2108.08607},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2108.08607},
-  eprinttype = {arXiv},
-  eprint    = {2108.08607}}
 ```
