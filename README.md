@@ -1,16 +1,16 @@
 # Make Manual Architecture Design Great Again
 
-This is is a non-official PyTorch implementation of this work (2022):
+### This is is a non-official PyTorch implementation of this work (2022):
 
 [Make Manual Architecture Design Great Again](https://arxiv.org/pdf/2108.08607.pdf)
 
 ## Introduction
-This is an exploration work, the authors made a comprehensive study on the hyperparameters and Arch. configurations in the manual-designed networks,
+### This is an exploration work, the authors made a comprehensive study on the hyperparameters and Arch. configurations in the manual-designed networks,
 and found the manual-designed networks could even surpass the NAS-based method if we could appropriately use the configurations: 
 
 <img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/flops_acc.png" width="745" alt="workflow" />
 
-The final presented network could surpass the many sota methods including NAS-based ones on ImageNet, this work may provide some guidance for the manual network design:
+### The final presented network could surpass the many sota methods including NAS-based ones on ImageNet, this work may provide some guidance for the manual network design:
 
 <img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/result.png" width="845" alt="workflow" />
 
