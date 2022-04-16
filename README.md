@@ -8,7 +8,7 @@ This is is a non-official PyTorch implementation of this work (2022):
 This is an exploration work, the authors made a comprehensive study on the hyperparameters and Arch. configurations in the manual-designed networks,
 and found the manual-designed networks could even surpass the NAS-based method if we could appropriately use the configurations: 
 
-<img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/flops_acc.png" width="645" alt="workflow" />
+<img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/flops_acc.png" width="745" alt="workflow" />
 
 The final presented network could surpass the many sota methods including NAS-based ones:
 
