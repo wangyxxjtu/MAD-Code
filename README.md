@@ -1,6 +1,6 @@
-# Make Manual Architecture Design Great Again
+# Narrowing the Gap Between Manual Architecture Design and Network Architecture Search
 
-This is is a PyTorch implementation of our work (2022):
+This is is a PyTorch implementation of our work (2023):
 
 [Narrowing the Gap Between Manual Architecture Design and Network Architecture Search]
 
