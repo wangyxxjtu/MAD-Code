@@ -2,7 +2,7 @@
 
 This is is a PyTorch implementation of our work (2022):
 
-[Make Manual Architecture Design Great Again]
+[Narrowing the Gap Between Manual Architecture Design and Network Architecture Search]
 
 ## Introduction
 This work is an interesting exploration, the authors made a comprehensive study on the hyperparameters and Arch. configurations in the manual-designed networks, and found the manual-designed networks could even surpass the NAS-based method if we could appropriately use the configurations: 
