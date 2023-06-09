@@ -11,7 +11,17 @@ This work is an interesting exploration, the authors made a comprehensive study 
 
 The final presented network could surpass the many sota methods including NAS-based ones on ImageNet, this work may provide some guidance for the manual network design:
 
-<img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/figures/table1.jpg" width="845" alt="workflow" />
+<img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/figures/table1.png" width="845" alt="workflow" />
+
+Our model also attain better performance than many SOTA networks on object detection and segmentation:
+
+<img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/figures/table2.png" width="845" alt="workflow" />
+
+Visualization of detection and segmentation:
+
+<img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/figures/fig3.png" width="845" alt="workflow" />
+
+<img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/figures/fig4.png" width="845" alt="workflow" />
 
 ## Training and Testing
 run
