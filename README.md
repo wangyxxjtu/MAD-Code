@@ -32,3 +32,7 @@ or simply run:
 ```
 sh run.sh
 ```
+
+## Citation
+
+Waiting to be published.
