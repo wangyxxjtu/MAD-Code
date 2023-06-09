@@ -7,7 +7,7 @@ This is is a PyTorch implementation of our work (2023):
 ## Introduction
 This work is an interesting exploration, the authors made a comprehensive study on the hyperparameters and Arch. configurations in the manual-designed networks, and found the manual-designed networks could even surpass the NAS-based method if we could appropriately use the configurations: 
 
-<img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/figures/fig11.png" width="745" alt="workflow" />
+<img src="https://github.com/wangyxxjtu/MAD-Code/blob/master/figures/fig11.jpg" width="745" alt="workflow" />
 
 The final presented network could surpass the many sota methods including NAS-based ones on ImageNet, this work may provide some guidance for the manual network design:
 
